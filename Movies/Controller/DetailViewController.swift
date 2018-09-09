@@ -14,7 +14,7 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var movieDescription: UITextView!
     
-    var movie: TopRatedMovie!
+    var movie: Movie!
     
     override func viewDidLoad() {
         super.viewDidLoad()

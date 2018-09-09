@@ -13,7 +13,7 @@ class MovieCell: UITableViewCell {
     @IBOutlet weak var movieImageView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     
-    func configureTopRatedMovieCell(movie: TopRatedMovie) {
+    func configureTopRatedMovieCell(movie: Movie) {
         // Upload cells with passed data
         titleLabel.text = movie.title
         guard let imagePath = movie.imagePath else {

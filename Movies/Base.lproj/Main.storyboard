@@ -94,12 +94,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IWn-FI-ntr">
-                                <rect key="frame" x="87" y="677" width="240" height="59"/>
+                                <rect key="frame" x="44" y="655" width="335" height="59"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zOF-g5-CPE">
-                                        <rect key="frame" x="0.0" y="0.0" width="240" height="59"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="59"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.38880882332566397" green="0.79526204909098219" blue="0.98148001269035534" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="28"/>
                                         <state key="normal" title="Back">
                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -111,7 +111,7 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="MZK-mf-e05"/>
+                                    <constraint firstAttribute="width" constant="335" id="MZK-mf-e05"/>
                                     <constraint firstAttribute="height" constant="59" id="RoY-hb-Czn"/>
                                 </constraints>
                             </view>
@@ -119,7 +119,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="y5X-MH-wm9" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="4Pv-rO-7FD"/>
-                            <constraint firstItem="IWn-FI-ntr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="83Q-io-xW8"/>
+                            <constraint firstItem="IWn-FI-ntr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="44" id="83Q-io-xW8"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="y5X-MH-wm9" secondAttribute="trailing" constant="16" id="FBn-HM-qTH"/>
                             <constraint firstItem="y5X-MH-wm9" firstAttribute="top" secondItem="Pj1-CB-N8x" secondAttribute="bottom" constant="8" id="ItZ-HQ-hfF"/>
                             <constraint firstItem="PxQ-d5-Wvk" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Try-bj-Nkx"/>
@@ -131,7 +131,7 @@
                             <constraint firstItem="5bD-0B-BTg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="35" id="rDi-ut-kLN"/>
                             <constraint firstItem="PxQ-d5-Wvk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="rT8-Vf-b1C"/>
                             <constraint firstItem="Pj1-CB-N8x" firstAttribute="top" secondItem="PxQ-d5-Wvk" secondAttribute="bottom" constant="26" id="vQk-dr-y2Z"/>
-                            <constraint firstItem="IWn-FI-ntr" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="vrB-ej-JPv"/>
+                            <constraint firstItem="IWn-FI-ntr" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-22" id="vrB-ej-JPv"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
